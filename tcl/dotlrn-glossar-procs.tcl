@@ -87,7 +87,7 @@ ad_proc -public dotlrn_glossar::remove_applet {
 } {
     One-time destroy for when the entire applet is removed from dotlrn.
 } {
-    ad_return_complaint 1 "[applet_key] remove_applet not implimented!"
+    ad_return_complaint 1 "[applet_key] remove_applet not implemented!"
 }
 
 
@@ -143,7 +143,7 @@ ad_proc -public dotlrn_glossar::remove_applet_from_community {
 } {
     remove the applet from the community
 } {
-    ad_return_complaint 1 "[applet_key] remove_applet_from_community not implimented!"
+    ad_return_complaint 1 "[applet_key] remove_applet_from_community not implemented!"
 }
 
 ad_proc -public dotlrn_glossar::add_user {
